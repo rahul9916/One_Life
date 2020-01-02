@@ -56,4 +56,20 @@
       </plugin>
     </plugins>
   </build>
+      <repositories>
+   <repository>
+      <id>jboss-eap-repository-group</id>
+      <name>JBoss EAP Maven Repository</name>
+      <url>https://github.com/rahul9916/One_Life.git</url>
+      <layout>default</layout>
+      <releases>
+         <enabled>true</enabled>
+         <updatePolicy>never</updatePolicy>
+      </releases>
+      <snapshots>
+         <enabled>true</enabled>
+         <updatePolicy>never</updatePolicy>
+      </snapshots>
+   </repository>
+</repositories>
 </project>
